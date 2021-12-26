@@ -1,0 +1,58 @@
+*.log
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+junit.xml
+
+# Sphinx
+docs/_build
+
+# Virtualenvs
+venv
+
+# intellij
+*.ipr
+*.iml
+*.iws
+
+# vim
+*.sw[o,p]
+
+# models
+models.png
+
+.idea/*
+
+*.db
+*.sqlite3
+
+
+secret.key
+
+# Sublime Text 3
+*.sublime-project
+*.sublime-workspace
+
+# Configuration
+.env
+
+# Virtual Environment
+.venv
+tmp
+Procfile.dev
+
+__pycache__/
+
+.pytest_cache/
+
+# Directorio de archivos media de tests
+src/test_media/
+
+src/static/*
+src/media/*
