@@ -1,0 +1,639 @@
+[
+  {
+    "model": "rrhh.area",
+    "pk": 1,
+    "fields": {
+      "nombre": "VICEGOBERNACION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 2,
+    "fields": {
+      "nombre": "SECRETARIA ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 3,
+    "fields": {
+      "nombre": "SECRETARIA DE GESTION PUBLICA PRIVADA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 4,
+    "fields": {
+      "nombre": "SECRETARIA TECNICA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 5,
+    "fields": {
+      "nombre": "SECRETARIA PARLAMENTARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 6,
+    "fields": {
+      "nombre": "SECRETARIO PRIVADO PRESIDENCIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 7,
+    "fields": {
+      "nombre": "SUBSECRETARIA ADMINISTATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 8,
+    "fields": {
+      "nombre": "SUBSECRETARIA PARLAMENTARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 9,
+    "fields": {
+      "nombre": "CONTADURIA Y TESORERIA GENERAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 10,
+    "fields": {
+      "nombre": "DIRECCION GENERAL DE RECURSOS HUMANOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 11,
+    "fields": {
+      "nombre": "DIRECCION GENERAL DE GESTION ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 12,
+    "fields": {
+      "nombre": "DIRECCION DE PROTOCOLO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 13,
+    "fields": {
+      "nombre": "DIRECCION DE PROMOCION SOCIAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 14,
+    "fields": {
+      "nombre": "DIRECCION DE CAPACITACION SELECCION EVALUACION Y PUBLICACION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 15,
+    "fields": {
+      "nombre": "DIRECCION DE GESTION PARLAMENTARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 16,
+    "fields": {
+      "nombre": "DIRECCION DE INFORMACION PARLAMENTARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 17,
+    "fields": {
+      "nombre": "DIRECCION DE PRENSA Y DIFUSION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 18,
+    "fields": {
+      "nombre": "COORDINACION DE CONTABILIDAD"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 19,
+    "fields": {
+      "nombre": "COORDINACION DE TESORERIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 20,
+    "fields": {
+      "nombre": "COORDINACION DE PROCESAMIENTO DE DATOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 21,
+    "fields": {
+      "nombre": "COORDINACION ADMINISTRACION DE RECURSOS HUMANOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 22,
+    "fields": {
+      "nombre": "COORDINACION DE INFORMATICA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 23,
+    "fields": {
+      "nombre": "COORDINACION DE PATRIMONIO ECONOMATO Y PARQUE AUTOMOTOR"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 24,
+    "fields": {
+      "nombre": "COORDINACION DE SERVICIOS GENERALES"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 25,
+    "fields": {
+      "nombre": "COORDINACION DE MESA DE ENTRADA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 26,
+    "fields": {
+      "nombre": "COORDINACION ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 27,
+    "fields": {
+      "nombre": "COORDINACION DE DESPACHO SECRETARIA ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 28,
+    "fields": {
+      "nombre": "COORDINACION DE PROMOCION SOCIAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 29,
+    "fields": {
+      "nombre": "DIRECCION CUERPO DE ASESORES LETRADOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 30,
+    "fields": {
+      "nombre": "COORDINACION DE CAPACITACION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 31,
+    "fields": {
+      "nombre": "COORDINACION DE DESPACHO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 32,
+    "fields": {
+      "nombre": "COORDINACION BIBLIOTECA Y ARCHIVO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 33,
+    "fields": {
+      "nombre": "COORDINACION DE TAQUIGRAFOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 34,
+    "fields": {
+      "nombre": "COORDINACION DE PROCESAMIENTO DE DATOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 35,
+    "fields": {
+      "nombre": "JEFATURA DE DESPACHO SUBSECRETARIA ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 36,
+    "fields": {
+      "nombre": "JEFATURA PROTOCOLIZACION Y ARCHIVO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 37,
+    "fields": {
+      "nombre": "JEFATURA DE DESPACHO SECRETARIA ADMINISTRATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 38,
+    "fields": {
+      "nombre": "JEFATURA DE SEGURIDAD LEGISLATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 39,
+    "fields": {
+      "nombre": "JEFATURA DE PUBLICACION LEGISLATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 40,
+    "fields": {
+      "nombre": "JEFATURA DE COMISIONES"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 41,
+    "fields": {
+      "nombre": "DPTO. PATRIMONIO ECONOMATO Y PARQUE AUTOMOTOR"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 42,
+    "fields": {
+      "nombre": "DPTO. SERVICIOS GENERALES"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 43,
+    "fields": {
+      "nombre": "DPTO. PROGRAMACION PRESUPUESTARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 44,
+    "fields": {
+      "nombre": "DPTO. COMPRAS Y SUMINISTROS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 45,
+    "fields": {
+      "nombre": "DPTO. HABILITACION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 46,
+    "fields": {
+      "nombre": "DPTO. RENDICION DE CUENTAS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 47,
+    "fields": {
+      "nombre": "DPTO. REGISTRO Y ARCHIVO CONTABLES"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 48,
+    "fields": {
+      "nombre": "DPTO. RECONOCIMIENTO MEDICOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 49,
+    "fields": {
+      "nombre": "DPTO. INFORME DE SITUACION DE PERSONAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 50,
+    "fields": {
+      "nombre": "DPTO. ANEXOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 51,
+    "fields": {
+      "nombre": "DPTO. CENTRAL TELEFONICA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 52,
+    "fields": {
+      "nombre": "DPTO. SOPORTE Y ASISTENCIA TECNICA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 53,
+    "fields": {
+      "nombre": "DPTO. SISTEMAS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 54,
+    "fields": {
+      "nombre": "DPTO. MESA DE ENTRADAS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 55,
+    "fields": {
+      "nombre": "DPTO. DESPACHO ADMINISTRATIVO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 56,
+    "fields": {
+      "nombre": "DPTO. TRABAJO SOCIAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 57,
+    "fields": {
+      "nombre": "DPTO. DE AUDITORIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 58,
+    "fields": {
+      "nombre": "DPTO. SUMARIOS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 59,
+    "fields": {
+      "nombre": "DPTO. ARCHIVO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 60,
+    "fields": {
+      "nombre": "DPTO. BIBLIOTECA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 61,
+    "fields": {
+      "nombre": "SENADOR AMBATO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 62,
+    "fields": {
+      "nombre": "SENADOR ANCASTI"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 63,
+    "fields": {
+      "nombre": "SENADOR ANDALGALA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 64,
+    "fields": {
+      "nombre": "SENADOR ANTOFAGASTA DE LA SIERRA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 65,
+    "fields": {
+      "nombre": "SENADOR BELEN"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 66,
+    "fields": {
+      "nombre": "SENADOR CAPAYAN"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 67,
+    "fields": {
+      "nombre": "SENADOR CAPITAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 68,
+    "fields": {
+      "nombre": "SENADOR EL ALTO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 69,
+    "fields": {
+      "nombre": "SENADOR FRAY MAMERTO ESQUIU"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 70,
+    "fields": {
+      "nombre": "SENADOR LA PAZ"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 71,
+    "fields": {
+      "nombre": "SENADOR PACLIN"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 72,
+    "fields": {
+      "nombre": "SENADOR POMAN"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 73,
+    "fields": {
+      "nombre": "SENADOR SANTA ROSA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 74,
+    "fields": {
+      "nombre": "SENADOR SANTA MARIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 75,
+    "fields": {
+      "nombre": "SENADOR TINOGASTA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 76,
+    "fields": {
+      "nombre": "SENADOR VALLE VIEJO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 77,
+    "fields": {
+      "nombre": "PRESIDENCIA PROVISORIA SENADO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 78,
+    "fields": {
+      "nombre": "PERSONAL ANEXO AYACUCHO"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 79,
+    "fields": {
+      "nombre": "PERSONAL ANEXO VIRGEN VALLE"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 80,
+    "fields": {
+      "nombre": "PERSONAL ANEXO PERU"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 81,
+    "fields": {
+      "nombre": "COORDINACION DE ARQUITECTURA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 82,
+    "fields": {
+      "nombre": "BLOQUE FRENTE CIVICO Y SOCIAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 83,
+    "fields": {
+      "nombre": "BLOQUE JUSTICIALISTA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 84,
+    "fields": {
+      "nombre": "OFICINA DE SEGUROS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 85,
+    "fields": {
+      "nombre": "OFICINA LEGAJOS DE BAJAS"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 86,
+    "fields": {
+      "nombre": "COORDINACION DE AUDITORIA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 87,
+    "fields": {
+      "nombre": "COORDINACION DE SEGURIDAD LEGISLATIVA"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 88,
+    "fields": {
+      "nombre": "JARDIN MATERNAL"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 89,
+    "fields": {
+      "nombre": "SALA DE GRABACION"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 90,
+    "fields": {
+      "nombre": "CER"
+    }
+  },
+  {
+    "model": "rrhh.area",
+    "pk": 91,
+    "fields": {
+      "nombre": "DEPOSITO PATROMINIO"
+    }
+  }
+]
