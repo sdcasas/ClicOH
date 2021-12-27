@@ -1,8 +1,17 @@
 import os
+from datetime import datetime
+
 import pytest
 from django.contrib.auth.models import User
+from rest_framework.test import APIClient
 
-from core.models import Product
+from core.models import Product, Order
+
+
+def get_client():
+    client = APIClient()
+    client.login(username='admin', password='asdf1234')
+    return client
 
 
 @pytest.fixture
@@ -24,3 +33,11 @@ def product_create_multiple():
 @pytest.fixture
 def product_create():
     return Product.objects.create(name="Notebook HP", price=220000, stock=7)
+
+
+@pytest.fixture
+def order_create_multiple():
+    o1, _ = Order.objects.get_or_create(datetime_register=datetime(2021, 1, 1))
+    o2, _ = Order.objects.get_or_create(datetime_register=datetime(2021, 1, 2))
+    o3, _ = Order.objects.get_or_create(datetime_register=datetime(2021, 1, 3))
+    return o1, o2, o3
