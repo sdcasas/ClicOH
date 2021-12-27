@@ -133,8 +133,9 @@ REST_FRAMEWORK = {
     'NON_FIELD_ERRORS_KEY': 'error_messages',
 }
 
+API_DOLAR_URL = "https://www.dolarsi.com/api/api.php?type=valoresprincipales"
+
 if DEBUG:
     INSTALLED_APPS += ('debug_toolbar', 'django_extensions')
     MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware', ] + MIDDLEWARE
-    #REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] += ('rest_framework.renderers.BrowsableAPIRenderer',)
-    #REST_FRAMEWORK['DEFAULT_AUTHENTICATION_CLASSES'] += ('rest_framework.authentication.SessionAuthentication',)
+    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] += ('rest_framework.renderers.BrowsableAPIRenderer',)

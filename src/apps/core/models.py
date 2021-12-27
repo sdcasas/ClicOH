@@ -2,17 +2,7 @@ import uuid
 from django.db import models
 from django.utils import timezone
 
-
-from json import JSONEncoder
-from uuid import UUID
-
-JSONEncoder_olddefault = JSONEncoder.default
-
-def JSONEncoder_newdefault(self, o):
-    if isinstance(o, UUID): return str(o)
-    return JSONEncoder_olddefault(self, o)
-
-JSONEncoder.default = JSONEncoder_newdefault
+from core.utils import get_dolar_blue
 
 
 class Product(models.Model):
@@ -38,9 +28,22 @@ class Order(models.Model):
     def __str__(self):
         return f"{self.id} ({self.datetime_register})"
 
+    def get_total(self):
+        total = 0
+        for orderdetail in self.details.all():
+            total += orderdetail.product.price * orderdetail.cuantity
+        return total
+
+    def get_total_usd(self):
+        dolar_blue_value = get_dolar_blue()
+        if dolar_blue_value:
+            return self.get_total() / dolar_blue_value
+        else:
+            return None
+
 
 class OrderDetail(models.Model):
-    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name="details")
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     cuantity = models.PositiveIntegerField()
 

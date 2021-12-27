@@ -8,14 +8,21 @@ from core.models import Product, Order, OrderDetail
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    price = serializers.FloatField(min_value=0, default=0)
-
     class Meta:
         model = Product
         fields = ('name', 'price', 'stock')
 
 
 class OrderSerializer(serializers.ModelSerializer):
+    get_total = serializers.SerializerMethodField(method_name='get_total')
+    get_total_usd = serializers.SerializerMethodField(method_name='get_total_usd')
+
     class Meta:
         model = Order
-        fields = ('datetime_register', )
+        fields = ('datetime_register', 'get_total', 'get_total_usd')
+
+    def get_total(self, order):
+        return order.get_total()
+
+    def get_total_usd(self, order):
+        return order.get_total_usd()
