@@ -15,7 +15,7 @@ class Product(models.Model):
         ordering = ("name", )
 
     def __str__(self):
-        return f"{self.stock} - {self.name}"
+        return f"{self.name} ({self.stock})"
 
 
 class Order(models.Model):
@@ -26,7 +26,7 @@ class Order(models.Model):
         ordering = ("datetime_register", )
 
     def __str__(self):
-        return f"{self.id} ({self.datetime_register})"
+        return f"{self.datetime_register} - ({self.id})"
 
     def get_total(self):
         total = 0
@@ -43,6 +43,7 @@ class Order(models.Model):
 
 
 class OrderDetail(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True, editable=False)
     order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name="details")
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     cuantity = models.PositiveIntegerField()
