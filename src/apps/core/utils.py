@@ -9,7 +9,7 @@ def convert_str_to_float(value: str) -> Optional[float]:
     return float(value.replace(",", ".").strip()) if value else None
 
 
-def get_dolar_blue() -> float:
+def get_dolar_blue() -> Optional[float]:
     result = cache.get("dolar_blue", None)
     if result:
         return result
